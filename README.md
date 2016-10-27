@@ -1,1 +1,1 @@
-# afq-demo
+# flywheel/afq-demo
