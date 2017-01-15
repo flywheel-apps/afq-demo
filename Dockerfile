@@ -7,9 +7,7 @@ MAINTAINER Michael Perry <lmperry@stanford.edu>
 # Install dependencies
 RUN apt-get update \
     && apt-get install -y \
-    zip \
-    gzip \
-    python
+    zip
 
 # Make directory for flywheel spec (v0)
 ENV FLYWHEEL /flywheel/v0
