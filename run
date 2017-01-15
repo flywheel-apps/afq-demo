@@ -36,9 +36,7 @@ if [[ -z $outputs ]]
         echo "$CONTAINER  No results found in output directory... Exiting"
         exit 1
     else
-        cd $OUTPUT_DIR
-        $FLYWHEEL_BASE/metadata_create.py $OUTPUT_DIR
-        echo -e "$CONTAINER  Wrote: `ls`"
+        echo -e "$CONTAINER  Wrote: `ls $OUTPUT_DIR`"
         echo -e "$CONTAINER  Done!"
 fi
 
